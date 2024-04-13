@@ -43,4 +43,3 @@ console.log("Vogais encontradas:", consoantesEncontradas)
 
 
 
-

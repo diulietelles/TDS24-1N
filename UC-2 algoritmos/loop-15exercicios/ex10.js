@@ -1,30 +1,19 @@
-//Mostrar a sequência de Fibonacci até o 10º termo: Utilize um loop for para calcular e mostrar os 10 primeiros termos da sequência de Fibonacci no console. "A sequência de Fibonacci é uma sequência numérica proposta pelo matemático Leonardo Pisa, mais conhecido como Fibonacci. Ela começa com os dois primeiros termos sendo 1 e 1, e a partir daí, cada termo subsequente é a soma dos dois anterioes.
-
-
-const readlineSync = require('readline-sync')
-
 function fibonacci() {
-    const termo = readlineSync.question('Digite o termo da sequência de Fibonacci: ') 
-    let penultimo = 0 //inicia o penultimo termo da sequência como 0
-    let ultimo = 1 //inicia o ultimo termo da sequencia como 1
-    let numero; //declara a variavel que vai armazenar o termo atual da sequencia
+    let a = 0 // primeiro termo 
+    let b = 1 // segundo termo
+    let c // proximo termo 
 
-    if (termo <= 2) { // verifica se o termo é menor ou igual a 2
-        numero = termo - 1 // Se sim, o termo é o próprio número -1
-    } else {
-        for (let i = 3; i <= termo; i++) { // loop para calcular os termos da proxima sequencia
-            numero = ultimo + penultimo // calcula o prpximo termo da sequencia
-            penultimo = ultimo // atualiza o penultimo termo
-            ultimo = numero // atualiza o ultimo termo
-        }
+    console.log('Os 10 primeiros termos da sequência de Fibonacci são:')
+
+    console.log(a) // mstra o primeiro termo 0
+    
+
+    for (let i = 2; i <= 10; i++) { // terceiro termo até o décimo
+        c = a + b // calcula o próximo termo
+        console.log(c) // Mostra o próximo termo
+        a = b // atualiza o primeiro termo
+        b = c // aualiza o segundo termo
     }
-
-    console.log("O termo da sequência de Fibonacci é:", numero)
 }
 
 fibonacci()
-
-
-
-
-
