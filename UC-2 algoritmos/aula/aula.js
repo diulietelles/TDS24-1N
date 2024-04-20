@@ -60,7 +60,6 @@ const curso = {
     linguagens: ['JS', 'CSS', 'HTML']
 }
 console.log(curso.linguagens[0])
-*/
 
 //ex 7
 
@@ -78,3 +77,19 @@ const curso = {
 
 curso.numeroDeEstudantes = 30
 console.log(curso)
+*/
+
+//ex 08
+
+const usuario = {
+    nome: 'prof',
+    idade:25,
+    email:'prof@senacrs.com.br',
+    cidade: 'sao paulo'
+}
+
+const novoUsuario = {
+    ...usuario,
+    nome: 'joao',
+    idade: 28
+}
