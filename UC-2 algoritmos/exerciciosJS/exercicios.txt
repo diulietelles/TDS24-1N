@@ -1,0 +1,48 @@
+*** Variáveis
+1- Simples: Crie uma variável que armazene a tua idade e exiba no console.
+2- Desafio: Crie duas variáveis que armazenem a cidade e o país onde você mora, concatene-as e exiba no console.
+
+
+*** Loops
+1- Simples: Use um loop for para exibir os números de 5 a 15 no console.
+2- Desafio: Use um loop while para exibir os números ímpares de 1 a 15 no console.
+
+
+*** Objetos
+1- Simples: Crie um objeto que represente um carro com marca e modelo. Exiba no console.
+2 - Desafio: Adicione ao objeto que exiba uma mensagem com a marca e o modelo do carro.
+
+
+*** Arrays
+1- Simples: Crie um array com os nomes dos dias da semana e exiba no console.
+2- Desafio: Remova o primeiro elemento do array de dias da semana e exiba o array atualizado no console.
+
+
+*** Condicionais
+1- Simples: Crie uma condicional que verifique se um número é negativo e exiba uma mensagem.
+2- Desafio: Crie uma condicional para verificar se um número é positivo, negativo ou zero e exibe uma mensagem.
+
+
+*** Strings
+1- Simples: Crie uma string com o seu nome completo e exiba a primeira letra de cada palavra no console.
+2- Desafio: Crie uma string e remova todos os espaços em branco antes de exibir no console.
+
+
+
+*** Comparadores (</=)maior, igual
+1- Simples: Use um comparador para verificar se um número é diferente de outro e exiba no console.
+2- Desafio: Use um comparador para verificar se um número é menor ou igual a outro e exiba no console.
+
+
+*** Comparadores Lógicos(&&/ ||) e ou
+1- Simples: Use um comparador lógico para verificar se um número está fora do intervalo de 10 a 20 e exibano console.
+2- Desafio: Use comparadores lógicos para verificar se um número é positivo ou igual a zero e menor que 50 e exiba no console.
+
+
+*** Funções
+1- Simples: Crie uma função que receba uma string e retorne o número de caracteres nela.
+2- Desafio: Crie uma função que receba um array de números e retorne um novo array com apenas os números pares.
+
+
+
+
